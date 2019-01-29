@@ -1,0 +1,4 @@
+amirich.egg-info
+venv
+*.pyc
+.idea
