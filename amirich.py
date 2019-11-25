@@ -113,3 +113,7 @@ class AlphaVantage:
             return
         # FIXME: Don't like the hard-coded strings here, can we do something better?
         return float(response.json()['Realtime Currency Exchange Rate']['5. Exchange Rate'])
+
+
+if __name__ == '__main__':
+    cli()
